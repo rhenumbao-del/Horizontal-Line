@@ -1,14 +1,15 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    int length = 10;
+    int count = 0;
 
-    int n = 5;
-    int row = 5;
-
-    while (row <= 5){
+    while (count < length) {
         printf("*");
-    }else {
-        printf(" ");
+        count++;
     }
+
+    printf("\n");
+
     return 0;
 }
